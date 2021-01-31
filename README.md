@@ -4,7 +4,7 @@ App for tracking stock prices daily that sends text notifications with info and 
 The text message you recieve includes and compares differences between info regarding closing price, percentages in rise/drop in the companies
 you choose and the links to the recent news articles involving those companies.
 
-You will need an alphavantage api key for the stock data access and an news api key for the related articles.
+You will need an alphavantage api key for the stock data access and a news api key for the related articles.
 
 Use https://www.alphavantage.co/ api to access data feeds of companies and their stock market info.
 In Alpha Vantage, many of the top technical indicators used by professional traders can be accessed with a basic structure.
@@ -14,7 +14,10 @@ and business professionals, Alpha Vantage Inc. has partnered with major exchange
 to become a leading provider of stock APIs as well as forex (FX) and digital/crypto currency data feeds. 
 Our success is driven by rigorous research, cutting edge technology,
 and a disciplined focus on democratizing access to data."
-                                                         - https://www.alphavantage.co/
+                                                           https://www.alphavantage.co/
+							 
+The NewsAPI is a simple and easy to use REST API that returns JSON metadata for headlines currently published from over 30,000 news sources and blogs. The NewsAPI covers top publications including: ABC News. Al Jazeera
+                                                           https://newsapi.org/
 
 Twilio is what we will use to send the SMS notifications from our program.
 
@@ -41,6 +44,8 @@ The steps this particular app performs:
 		- Send each article as a separate message via Twilio.
     
     (steps are also documemented in main.py)
+    
+    
     
     
     
